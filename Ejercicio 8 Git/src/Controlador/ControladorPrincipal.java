@@ -29,7 +29,7 @@ public class ControladorPrincipal {
         vap = new VentanaAltaPersonas();
         vbp = new VentanaBajaPersonas();
          vmp = new VentanaModificacionPersonas();
-        vap.setVisible(true);
+
         vbp.setVisible(true);
         vmp.setVisible(true);
         vp.añadirMenuALtaPersonas(new controlarMenuAltaPersonas(listaPersonas));
